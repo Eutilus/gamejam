@@ -15,4 +15,5 @@ GIT:
 	git add -A
 	git commit -m "Commit Message"
 	git push -u origin master (beim ersten Mal)
-	git push
+	git push (Änderungen in remote repository pushen)
+	git pull (aktuellen Stand aus remote repo auf lokalen Rechner ziehen)
