@@ -1,0 +1,18 @@
+GIT:
+
+-git downloaden
+
+-Bei erster Git-Nutzung:
+	git config --global user.name "John Doe"
+	git config --global user.email johndoe@example.com
+
+-Projekt klonen:
+	cd /projektverzeichnis/auf/lokalem/rechner
+	git init
+	git clone https://github.com/Eutilus/gamejam.git
+
+-MIt GIT arbeiten:
+	git add -A
+	git commit -m "Commit Message"
+	git push -u origin master (beim ersten Mal)
+	git push
