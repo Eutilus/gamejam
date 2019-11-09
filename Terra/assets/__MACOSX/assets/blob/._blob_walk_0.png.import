@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/arrow.png-2a2b80d403e534c18914e2fb4094c926.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
-source_file="res://IMGs/arrow.png"
-dest_files=[ "res://.import/arrow.png-2a2b80d403e534c18914e2fb4094c926.stex" ]
-
+source_file="res://assets/__MACOSX/assets/blob/._blob_walk_0.png"
 [params]
 
 compress/mode=0
@@ -20,11 +15,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-<<<<<<< HEAD
-flags/filter=false
-=======
 flags/filter=true
->>>>>>> f7764c1a3e32b2e62d41d5f9044cb70e9455ad72
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -34,9 +25,5 @@ process/HDR_as_SRGB=false
 process/invert_color=false
 stream=false
 size_limit=0
-<<<<<<< HEAD
-detect_3d=false
-=======
 detect_3d=true
->>>>>>> f7764c1a3e32b2e62d41d5f9044cb70e9455ad72
 svg/scale=1.0
