@@ -1,4 +1,4 @@
 extends Button
 
 func _on_Button_pressed():
-	get_tree().change_scene("res://Scenes/Node2D.tscn")
+	get_tree().change_scene("res://Scenes/Player.tscn")
