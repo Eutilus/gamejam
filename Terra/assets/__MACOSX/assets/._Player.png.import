@@ -6,7 +6,7 @@ valid=false
 
 [deps]
 
-source_file="res://assets/__MACOSX/assets/._Player.png"
+source_file="res://Assets/__MACOSX/assets/._Player.png"
 [params]
 
 compress/mode=0

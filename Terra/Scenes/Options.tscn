@@ -3,8 +3,10 @@
 [ext_resource path="res://scripts/Options.gd" type="Script" id=1]
 [ext_resource path="res://IMGs/all.jpg" type="Texture" id=2]
 [ext_resource path="res://fonts/SFPixelate.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Scenes/AudioBtn.gd" type="Script" id=4]
-[ext_resource path="res://Scenes/BackBtn.gd" type="Script" id=5]
+[ext_resource path="res://scripts/AudioBtn.gd" type="Script" id=4]
+[ext_resource path="res://scripts/BackBtn.gd" type="Script" id=5]
+
+
 
 [sub_resource type="DynamicFont" id=1]
 size = 120
