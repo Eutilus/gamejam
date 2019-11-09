@@ -3,6 +3,8 @@ extends KinematicBody2D
 const MOVE_SPEED = 300
 
 const FIREBALL = preload("res://Scenes/fireball.tscn")
+const MAP = preload("res://Scenes/World.tscn")
+var map = MAP.instance()
 
 onready var raycast = $RayCast2D
 
