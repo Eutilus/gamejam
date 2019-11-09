@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Skyrim.wav-a5d4af8bd342b677edc229b5fa79c7dd.sample"
+
+[deps]
+
+source_file="res://Assets/Music/Skyrim.wav"
+dest_files=[ "res://.import/Skyrim.wav-a5d4af8bd342b677edc229b5fa79c7dd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

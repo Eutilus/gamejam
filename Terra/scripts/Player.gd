@@ -4,6 +4,7 @@ const MOVE_SPEED = 300
 
 const FIREBALL = preload("res://Scenes/fireball.tscn")
 
+
 onready var raycast = $RayCast2D
 
 func _ready():
@@ -14,6 +15,9 @@ func _physics_process(delta):
 	var move_vec = Vector2()
 	var direction = Vector2()
 	var velocity = Vector2()
+	
+	$AnimationPlayer.play("Idle")
+	
 	if Input.is_action_pressed("move_up"):
 		move_vec.y -= 1
 	if Input.is_action_pressed("move_down"):
@@ -34,7 +38,9 @@ func _physics_process(delta):
 		fireball.position = $Position2D.global_position
 		fireball.rotation = rotation
 		fireball.velocity = look_vec.normalized()
-		
+	
+	if Input.is_action_just_pressed("Pause"):
+		get_tree().change_scene("res://Scenes/RotateEarths.tscn")
 
 
 func kill():

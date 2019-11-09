@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scripts/fireball.gd" type="Script" id=1]
-[ext_resource path="res://IMGs/fireballs.png" type="Texture" id=2]
+[ext_resource path="res://IMGs/arrow.png" type="Texture" id=2]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -18,10 +18,12 @@ script = ExtResource( 1 )
 frames = SubResource( 1 )
 
 [node name="fireballs" type="Sprite" parent="AnimatedSprite"]
-position = Vector2( 0.186035, -1.07954 )
-rotation = -6.26172
-scale = Vector2( 0.42273, 0.42273 )
+position = Vector2( 0.449554, 0.238056 )
+rotation = -6.28196
+scale = Vector2( 1.15351, 1.14649 )
 texture = ExtResource( 2 )
+hframes = 4
+frame = 3
 
 [node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
 [connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]

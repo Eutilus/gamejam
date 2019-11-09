@@ -8,6 +8,10 @@ var rotate_down
 var moveForward
 var rotateValue
 
+func _physics_process(delta):
+	if Input.is_action_just_pressed("Pause"):
+		get_tree().change_scene("res://Scenes/Player.tscn")
+
 func _process(delta):
 	rotate_left= Input.is_action_pressed("ui_left")
 	rotate_right=Input.is_action_pressed("ui_right")
